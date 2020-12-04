@@ -1,0 +1,182 @@
+header {
+	background-color: black;
+	color: aliceblue;
+	position: fixed;
+	width: 100%;
+	z-index: 10; 
+	margin:0;
+	position: relative;
+}
+body{
+	margin:0;
+}
+#fondorojo{
+	margin:0;
+	background-image: url("../img/fondo-03.png");
+	background-size:cover;
+	background-position:center;
+	
+	
+}
+
+ul {
+  margin:0;
+  text-align: center;
+}
+
+li {
+	
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 80px;
+  align-items: center;
+	margin-bottom: 1%;
+}
+
+#cuadros{
+	padding:10%;
+}
+
+#cuadro{
+	
+
+	color:white;
+  width: 8%;
+	height:450px;
+  background-image:url("../img/Astroworld_by_Travis_Scott.jpg");
+background-size:cover;
+	background-position:center;
+  border-radius: 35px;
+  display: inline-block;
+	box-shadow: 0px 0px 0px 30px #fcf5a3;
+	
+}
+
+#cuadro2 {
+	
+  width: 40%;
+  margin-bottom: 15%;
+  height: 295px;
+  background-image:url("../img/playlist.png");
+background-size:cover;
+	background-position:center;
+  border-radius: 35px;
+  display: inline-block;
+	box-shadow: 0px 0px 0px 30px #000;
+}
+
+#cuadro3 {
+  width: 35%;
+
+  height: 450px;
+  background-color: #000;
+	background-image:url("../img/aa1c8b77f382d4d32ad97002ab823680.1000x1000x1.png");
+	background-size:cover;
+	background-position:center;
+	box-shadow: 0px 0px 0px 30px #000;
+  border-radius: 35px;
+  display: inline-block;
+}
+
+#cuadro4 {
+  width: 35%;
+  margin-bottom: 15%;
+  height: 450px;
+  background-color: #23325B;
+	background-image:url("../img/travis_.jpg");
+	background-size:cover;
+	background-position:center;
+  border-radius: 35px;
+  display: inline-block;
+	box-shadow: 0px 0px 0px 30px #1f325d;
+}
+
+#cuadro5 {
+  width: 35%;
+  height: 295px;
+  background-color: #B0CFE5;
+  border-radius: 35px;
+  display: inline-block;
+	background-image:url("../img/Captura de pantalla 2020-11-08 a la(s) 9.25.35 p. m..png");
+	background-position: center;
+	background-size:cover;
+	box-shadow: 0px 0px 0px 30px #a8d0e9;
+	
+}
+
+#cuadro6 {
+  width: 35%;
+  height: 450px;
+  background-color: #F7F5B0;
+  border-radius: 35px;
+  display: inline-block;
+	background-image:url("../img/e98913aaf55a8e5ba564c99c5337a888.jpg");
+	background-size:cover;
+	background-position: center;
+	box-shadow: 0px 0px 0px 30px #fcf5a3;
+	
+}
+
+footer {
+	
+	background-color: black;
+	color: aliceblue;
+	width: 100%;
+	z-index: 10; 
+	margin: 0; 
+	position: relative;
+	padding: 5% 5% 5% 0;
+	
+}
+.cuadro_in{
+	background-image:url("../img/Astroworld_by_Travis_Scott.jpg");
+	background-size:cover;
+	background-position:center;
+}
+#fondoazul{
+	background-image:url("../img/fondoazul-03.png");
+}
+#contactus{
+	text-align:center;
+	padding:5%;
+}
+.titlecontact{
+	color:#f8f4b0;
+	background-color:black;
+	border-radius:35px;
+	padding:2%;
+	text-transform: uppercase;
+}
+#register{
+	text-align:left;
+}
+.btn-submit{
+	color:#f8f4b0;
+	background-color:black;
+	border-radius:35px;
+	padding:2%;
+	text-transform: uppercase;
+	
+}
+.titleabout{
+	color:#b1d0e5;
+	background-color:black;
+	border-radius:35px;
+	padding:2%;
+	text-transform: uppercase;
+	margin-top:5%;
+}
+.textabout{
+	color:#f8f4b0;
+	background-color:black;
+	border-radius:100%;
+	padding:20%;
+	font-size:30px;
+	margin-top:5%;
+	
+}
+
