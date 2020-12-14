@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 header {
 	background-color: black;
 	color: aliceblue;
@@ -10,6 +11,7 @@ header {
 	font-family: 'Montserrat', sans-serif;
 }
 body{
+	font-family: 'Lato', sans-serif;
 	margin:0;
 }
 #fondorojo{
@@ -131,7 +133,7 @@ footer {
 #fondoazul{
 	background-image:url("../img/fondoazul-03.png");
 }
-#contactus{
+#contactus , #visit-us{
 	text-align:center;
 	padding:5%;
 }
@@ -173,4 +175,97 @@ footer {
 .logo-nav{
 
 }
+#facts{
+	padding:5%;
+	
+}
+.fact-box{
+	
+	border-radius:40px;
+	padding:5%;
+	background-color:black;
+	margin:5%;
+}
+.artist-pic{
+	border-radius: 150px;
+}
 
+.fact-title{
+	text-transform: uppercase;
+	color:#b1d0e5;
+	font-weight:bolder;
+	
+}
+.fact-text{
+	
+	color:#e87470;
+	
+}
+.fact-title2{
+	text-align: center;
+	text-transform: uppercase;
+	color:#b1d0e5;
+	font-size:28px;
+	font-weight:bolder;
+	
+}
+.facts-titles{
+	margin-top:5%;
+	text-align: center;
+	text-transform: uppercase;
+	color:#b1d0e5;
+	font-size:18px;
+	font-weight:bolder;
+	
+	
+}
+.fact-text2{
+	
+	color:white;
+	font-weight:lighter;
+	
+}
+#artist-page .fact-title2{
+	color:#e874700!important;
+	font-size:18px;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: black;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+	color:white;
+}
+
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: red;
+  content: "/\00a0";
+}
+
+
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+
+ul.breadcrumb li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+#playlist h2{
+	text-align: center;
+}
+#playlist .titlecontact , #shop .titlecontact{
+	margin-top:5%;
+text-align:center;
+}
+#shop{
+	padding:15%;
+}
